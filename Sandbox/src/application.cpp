@@ -1,7 +1,17 @@
-namespace Neko {
-	_declspec(dllimport) void print();
-}
+#include<Neko.h>
 
-void main() {
-	Neko::print();
+class Sandbox :public Neko::Application {
+public:
+	Sandbox() {
+
+	}
+
+	~Sandbox() {
+
+	}
+
+};
+
+Neko::Application* Neko::CreateApplication() {
+	return new Sandbox();
 }
