@@ -1,5 +1,8 @@
 #pragma once
 
-#include"Neko/Core.h"
+
 #include"Neko/Application.h"
+#include"Neko/Log.h"
+
 #include"Neko/EntryPoint.h"
+
