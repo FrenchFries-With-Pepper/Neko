@@ -5,3 +5,6 @@ bin-int/
 
 #文件
 *.user
+*.sln
+*.vcxproj
+*.filter
