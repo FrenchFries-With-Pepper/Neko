@@ -1,3 +1,5 @@
+
+*.sln
 #目录
 .vs/
 bin/
@@ -5,6 +7,6 @@ bin-int/
 
 #文件
 *.user
-*.sln
+
 *.vcxproj
 *.filter
